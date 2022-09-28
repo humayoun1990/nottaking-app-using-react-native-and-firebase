@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "noteTakingApp",
+    "slug": "noteTakingApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1066666706609902~5565504792"
+      },
+      "bundleIdentifier": "com.humayounshaikh.noteTakingApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1066666706609902~7916373954"
+      },
+      "package": "com.humayounshaikh.noteTakingApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "443a7a8b-9169-4cc6-ba15-139e6055896c"
+      }
+    }
+  }
+}
